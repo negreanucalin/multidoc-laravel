@@ -8,8 +8,24 @@
             "email": "negreanu0calin@gmail.com"
         }
     ],
+	"autoload": {
+		"psr-4": {
+			"negreanucalin\\Multidoc\\": "src/negreanucalin/Multidoc/"
+		}
+	},
+    "autoload-dev": {
+      "psr-4": {
+        "negreanucalin\\Multidoc\\Tests\\": "tests/",
+        "negreanucalin\\Multidoc\\": "src/negreanucalin/Multidoc/"
+      }
+    },
     "require": {
-		"negreanucalin/multidoc-parser": "~1.0",
-		"negreanucalin/multidoc-viewer": "~1.0"
-	}
+        "illuminate/support": "^5.2",
+        "negreanucalin/multidoc-parser": "~1.0",
+        "negreanucalin/multidoc-viewer": "~1.0"
+    },
+    "require-dev": {
+        "graham-campbell/testbench": "^3.2",
+        "phpunit/phpunit": "^4.8"
+    }
 }
