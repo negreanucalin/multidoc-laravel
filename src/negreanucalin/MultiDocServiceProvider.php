@@ -5,6 +5,7 @@ namespace negreanucalin\Multidoc;
 use Illuminate\Support\ServiceProvider;
 use Multidoc\Services\DIService;
 use Multidoc\Services\MultidocService;
+use Illuminate\Foundation\Application as LaravelApplication;
 
 class MultiDocServiceProvider extends ServiceProvider
 {
@@ -23,9 +24,10 @@ class MultiDocServiceProvider extends ServiceProvider
         $source = realpath(__DIR__ . '/../../config/multidoc.php');
         if($this->app instanceof LaravelApplication && $this->app->runningInConsole()){
             $this->publishes(array($source=>config_path('multidoc.php')));
-        } elseif ($this->app instanceof LumenApplication){
-            $this->app->configure('multidoc');
         }
+//        elseif ($this->app instanceof LumenApplication){
+//            $this->app->configure('multidoc');
+//        }
         $this->mergeConfigFrom($source, 'multidoc');
     }
 
