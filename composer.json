@@ -1,0 +1,15 @@
+{
+    "name": "negreanucalin/multidoc-laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Negreanu Calin",
+            "email": "negreanu0calin@gmail.com"
+        }
+    ],
+    "require": {
+		"negreanucalin/multidoc-parser": "dev-master",
+		"negreanucalin/multidoc-viewer": "dev-master"
+	}
+}
