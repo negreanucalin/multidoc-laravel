@@ -7,7 +7,7 @@ use Multidoc\Services\DIService;
 use Multidoc\Services\MultidocService;
 use Illuminate\Foundation\Application as LaravelApplication;
 
-class MultiDocServiceProvider extends ServiceProvider
+class MultidocServiceProvider extends ServiceProvider
 {
     /**
      * @var bool

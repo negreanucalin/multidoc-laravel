@@ -3,7 +3,7 @@
 namespace negreanucalin\Multidoc\Tests;
 
 use GrahamCampbell\TestBench\AbstractPackageTestCase;
-use negreanucalin\Multidoc\MultiDocServiceProvider;
+use negreanucalin\Multidoc\MultidocServiceProvider;
 
 abstract class AbstractTestCase extends AbstractPackageTestCase
 {
@@ -14,6 +14,6 @@ abstract class AbstractTestCase extends AbstractPackageTestCase
 
     protected function getServiceProviderClass($app)
     {
-        return MultiDocServiceProvider::class;
+        return MultidocServiceProvider::class;
     }
 }
