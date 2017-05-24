@@ -14,6 +14,6 @@ abstract class AbstractTestCase extends AbstractPackageTestCase
 
     protected function getServiceProviderClass($app)
     {
-        MultiDocServiceProvider::class;
+        return MultiDocServiceProvider::class;
     }
 }

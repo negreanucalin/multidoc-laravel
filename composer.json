@@ -14,10 +14,9 @@
 		}
 	},
     "autoload-dev": {
-      "psr-4": {
-        "negreanucalin\\Multidoc\\Tests\\": "tests/",
-        "negreanucalin\\Multidoc\\": "src/negreanucalin/Multidoc/"
-      }
+        "psr-4": {
+            "negreanucalin\\Multidoc\\Tests\\": "tests/"
+        }
     },
     "require": {
         "illuminate/support": "^5.2",
