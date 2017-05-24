@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-		"negreanucalin/multidoc-parser": "dev-master",
-		"negreanucalin/multidoc-viewer": "dev-master"
+		"negreanucalin/multidoc-parser": "~1.0",
+		"negreanucalin/multidoc-viewer": "~1.0"
 	}
 }
