@@ -9,10 +9,10 @@ use Illuminate\Foundation\Application as LaravelApplication;
 
 class MultidocServiceProvider extends ServiceProvider
 {
-    /**
-     * @var bool
-     */
-    protected $defer = true;
+
+    protected $commands = [
+        'negreanucalin\Multidoc\Commands\GenerateDocumentationCommand',
+    ];
 
     /**
      * Bootstrap any application services.
@@ -21,11 +21,12 @@ class MultidocServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $source = realpath(__DIR__ . '/../../config/multidoc.php');
+        $source = realpath(config_path() . '/multidoc.php');
+        $this->loadRoutesFrom(__DIR__.'/../../config/routes.php');
         if($this->app instanceof LaravelApplication && $this->app->runningInConsole()){
             $this->publishes(array($source=>config_path('multidoc.php')));
             $this->publishes([
-                __DIR__ . '/../../../../multidoc-viewer' => resource_path('views/vendor/multidoc')
+                app_path() . '/../vendor/negreanucalin/multidoc-viewer' => resource_path('views/vendor/multidoc')
             ], 'multidoc');
         }
 //        elseif ($this->app instanceof LumenApplication){
@@ -41,6 +42,7 @@ class MultidocServiceProvider extends ServiceProvider
      */
     public function register()
     {
+        $this->commands($this->commands);
         $this->app->singleton('multidoc', function ($app){
             $service = DIService::load();
             return $service->get('multidoc_service');

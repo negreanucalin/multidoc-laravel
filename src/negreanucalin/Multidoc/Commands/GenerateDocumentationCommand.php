@@ -26,7 +26,6 @@ class GenerateDocumentationCommand extends Command
     /**
      * Create a new command instance.
      *
-     * @param  DripEmailer  $drip
      * @return void
      */
     public function __construct()
