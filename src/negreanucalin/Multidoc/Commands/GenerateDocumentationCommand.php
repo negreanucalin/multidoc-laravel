@@ -2,10 +2,10 @@
 
 namespace negreanucalin\Multidoc\Commands;
 
-use App\User;
-use App\DripEmailer;
+
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Config;
+use negreanucalin\Multidoc\Facades\Multidoc;
 
 class GenerateDocumentationCommand extends Command
 {
