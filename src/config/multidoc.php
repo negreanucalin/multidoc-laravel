@@ -1,6 +1,5 @@
 <?php
 
 return array(
-    'input_folder'=>'',
-    'output_folder'=>''
+    'input_folder'=>''
 );
