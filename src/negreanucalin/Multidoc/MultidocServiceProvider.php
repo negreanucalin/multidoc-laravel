@@ -31,6 +31,9 @@ class MultidocServiceProvider extends ServiceProvider
             $this->publishes([
                 resource_path('views/vendor/multidoc/dist') => public_path('dist')
             ], 'multidoc');
+            $this->publishes([
+                resource_path('views/vendor/multidoc/includes') => public_path('includes')
+            ], 'multidoc');
         }
 //        elseif ($this->app instanceof LumenApplication){
 //            $this->app->configure('multidoc');
