@@ -41,6 +41,6 @@ class GenerateDocumentationCommand extends Command
     public function handle()
     {
         $configuration = Config::get('multidoc');
-        Multidoc::generate($configuration['input_folder'], public_path('api_data'));
+        Multidoc::generate($configuration['input_folder'], public_path('multidoc/api_data'));
     }
 }
