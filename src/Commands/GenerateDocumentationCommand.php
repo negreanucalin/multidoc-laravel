@@ -2,10 +2,9 @@
 
 namespace Multidoc\Commands;
 
-
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Config;
-use negreanucalin\Multidoc\Facades\Multidoc;
+use Multidoc\Facades\Multidoc;
 
 class GenerateDocumentationCommand extends Command
 {
