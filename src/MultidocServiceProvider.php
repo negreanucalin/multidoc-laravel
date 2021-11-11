@@ -31,6 +31,7 @@ class MultidocServiceProvider extends ServiceProvider
             $this->publishes([
                 $vendorPath.'/public/css/app.css' => public_path('vendor/multidoc/app.css'),
                 $vendorPath.'/public/js/app.js' => public_path('vendor/multidoc/app.js'),
+                $vendorPath.'/mix-manifest.json' => public_path('vendor/multidoc/mix-manifest.json'),
             ], 'multidoc');
         }
 //        elseif ($this->app instanceof LumenApplication){
