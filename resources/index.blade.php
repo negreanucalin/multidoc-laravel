@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Multidoc</title>
     <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
-    <link href="{{ asset(mix('app.css', 'vendor/telescope')) }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset(mix('app.css', 'vendor/multidoc')) }}" rel="stylesheet" type="text/css">
 <body>
 <div id="app">
     <v-app>
