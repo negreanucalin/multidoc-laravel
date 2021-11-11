@@ -11,12 +11,18 @@ Just add `"negreanucalin/multidoc-laravel": "^1.0"` in your `composer.json`
 #### Laravel configuration
 
 * Add the service provider and alias
-	* Providers ` \Multidoc\MultidocServiceProvider::class `
-	* Aliases ` 'Multidoc'=>\Multidoc\Facades\Multidoc::class `
+    * Providers ` \Multidoc\MultidocServiceProvider::class `
+    * Aliases ` 'Multidoc'=>\Multidoc\Facades\Multidoc::class `
 
 * Publish vendors
 Run:
 ` php artisan vendor:publish --tag=multidoc `
+
+* (SPA+Api integration)
+
+  `Route::get('/{any}', function () {
+        return ...
+    })->where('any', '^(?!api|multidoc).*$');`
 
 * Generate documentation
 	* Documentation folder is `documentation` inside the root of your application (check [Multidoc parser](https://github.com/negreanucalin/multidoc-parser) )
