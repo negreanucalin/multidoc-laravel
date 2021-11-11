@@ -21,7 +21,7 @@ class MultidocServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $source = realpath(config_path() . '/multidoc.php');
+        $source = realpath(__DIR__.'/../../config/multidoc.php');
         $this->loadRoutesFrom(__DIR__.'/../../config/routes.php');
         $vendorPath = app_path() . '/../vendor/negreanucalin/multidoc-viewer';
         $vendorDistPath = $vendorPath.'/dist';
