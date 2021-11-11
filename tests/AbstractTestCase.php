@@ -12,7 +12,7 @@ abstract class AbstractTestCase extends AbstractPackageTestCase
         $this->app->config->set('test', 'test');
     }
 
-    protected function getServiceProviderClass($app)
+    protected function getServiceProviderClass()
     {
         return MultidocServiceProvider::class;
     }
