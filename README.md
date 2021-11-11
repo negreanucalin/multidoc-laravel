@@ -16,7 +16,7 @@ Just add `"negreanucalin/multidoc-laravel": "^1.0"` in your `composer.json`
 
 * Publish vendors
 Run:
-` php artisan vendor:publish --force `
+` php artisan vendor:publish --tag=multidoc `
 
 * Generate documentation
 	* Documentation folder is `documentation` inside the root of your application (check [Multidoc parser](https://github.com/negreanucalin/multidoc-parser) )

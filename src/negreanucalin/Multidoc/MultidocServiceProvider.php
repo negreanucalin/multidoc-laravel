@@ -24,13 +24,11 @@ class MultidocServiceProvider extends ServiceProvider
         $source = realpath(__DIR__.'/../../config/multidoc.php');
         $this->loadRoutesFrom(__DIR__.'/../../config/routes.php');
         $vendorPath = app_path() . '/../vendor/negreanucalin/multidoc-viewer';
-        $vendorDistPath = $vendorPath.'/dist';
         if($this->app instanceof LaravelApplication && $this->app->runningInConsole()){
             $this->publishes(array($source=>config_path('multidoc.php')));
             $this->publishes([
-                $vendorDistPath => public_path('multidoc/dist'),
-                $vendorPath.'/includes' => public_path('multidoc/includes'),
-                $vendorPath.'/index.php'=> public_path('multidoc').'/index.php',
+                $vendorPath.'/public' => public_path('multidoc/public'),
+                $vendorPath.'/index.html'=> public_path('multidoc').'/index.html',
             ], 'multidoc');
         }
 //        elseif ($this->app instanceof LumenApplication){
