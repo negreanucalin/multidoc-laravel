@@ -11,7 +11,7 @@ class MultidocServiceProvider extends ServiceProvider
 {
 
     protected $commands = [
-        'Commands\GenerateDocumentationCommand',
+        'Multidoc\Commands\GenerateDocumentationCommand',
     ];
 
     /**
