@@ -1,6 +1,6 @@
 <?php
 
-namespace negreanucalin\Multidoc;
+namespace Multidoc;
 
 use Illuminate\Support\ServiceProvider;
 use Multidoc\Services\DIService;
@@ -11,7 +11,7 @@ class MultidocServiceProvider extends ServiceProvider
 {
 
     protected $commands = [
-        'negreanucalin\Multidoc\Commands\GenerateDocumentationCommand',
+        'Commands\GenerateDocumentationCommand',
     ];
 
     /**
@@ -21,14 +21,16 @@ class MultidocServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $source = realpath(__DIR__.'/../../config/multidoc.php');
-        $this->loadRoutesFrom(__DIR__.'/../../config/routes.php');
+        $source = realpath(__DIR__ . '/../config/multidoc.php');
+        $this->loadRoutesFrom(__DIR__ . '/Http/routes.php');
         $vendorPath = app_path() . '/../vendor/negreanucalin/multidoc-viewer';
         if($this->app instanceof LaravelApplication && $this->app->runningInConsole()){
+            // Config
             $this->publishes(array($source=>config_path('multidoc.php')));
+            // Statics
             $this->publishes([
-                $vendorPath.'/public' => public_path('vendor/multidoc/public'),
-                $vendorPath.'/index.html'=> public_path('vendor/multidoc').'/index.html',
+                $vendorPath.'/public/css/app.css' => public_path('vendor/multidoc/app.css'),
+                $vendorPath.'/public/js/app.js' => public_path('vendor/multidoc/app.js'),
             ], 'multidoc');
         }
 //        elseif ($this->app instanceof LumenApplication){

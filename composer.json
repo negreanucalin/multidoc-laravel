@@ -10,12 +10,12 @@
     ],
 	"autoload": {
 		"psr-4": {
-			"negreanucalin\\Multidoc\\": "src/negreanucalin/Multidoc/"
+			"Multidoc\\": "src/"
 		}
 	},
     "autoload-dev": {
         "psr-4": {
-            "negreanucalin\\Multidoc\\Tests\\": "tests/"
+            "Multidoc\\Tests\\": "tests/"
         }
     },
     "require": {

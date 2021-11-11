@@ -1,5 +1,5 @@
 <?php
-namespace negreanucalin\Multidoc\Facades;
+namespace Multidoc\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

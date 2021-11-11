@@ -1,6 +1,6 @@
 <?php
 
-namespace negreanucalin\Multidoc\Commands;
+namespace Multidoc\Commands;
 
 
 use Illuminate\Console\Command;

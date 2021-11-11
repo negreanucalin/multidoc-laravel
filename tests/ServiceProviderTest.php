@@ -1,5 +1,5 @@
 <?php
-namespace negreanucalin\Multidoc\Tests;
+namespace Multidoc\Tests;
 
 use GrahamCampbell\TestBenchCore\ServiceProviderTrait;
 use Multidoc\Services\MultidocService;

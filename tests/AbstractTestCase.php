@@ -1,9 +1,9 @@
 <?php
 
-namespace negreanucalin\Multidoc\Tests;
+namespace Multidoc\Tests;
 
 use GrahamCampbell\TestBench\AbstractPackageTestCase;
-use negreanucalin\Multidoc\MultidocServiceProvider;
+use Multidoc\MultidocServiceProvider;
 
 abstract class AbstractTestCase extends AbstractPackageTestCase
 {
