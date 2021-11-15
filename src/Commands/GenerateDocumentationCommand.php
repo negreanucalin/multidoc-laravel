@@ -43,7 +43,7 @@ class GenerateDocumentationCommand extends Command
         $this->info('Starting generation of documentation');
         Multidoc::generate(
             $configuration['input_folder'],
-            public_path('vendor/multidoc/api_data')
+            public_path($configuration['public_output_path'])
         );
         $this->info('Documentation generation has ended');
     }
