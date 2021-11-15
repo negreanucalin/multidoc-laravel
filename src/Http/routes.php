@@ -1,4 +1,4 @@
 <?php
-Route::get('/multidoc', function () {
+Route::get(config('multidoc.url','/multidoc'), function () {
     return view('multidoc::index');
 });
