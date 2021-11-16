@@ -49,8 +49,7 @@ class MultidocServiceProvider extends ServiceProvider
     {
         $this->commands($this->commands);
         $this->app->singleton('multidoc', function ($app){
-            $service = DIService::load();
-            return $service->get('multidoc_service');
+            return (new DIService)->load()->get('multidoc_service');
         });
         $this->app->alias('multidoc', MultidocService::class);
     }
