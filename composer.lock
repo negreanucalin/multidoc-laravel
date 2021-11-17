@@ -1177,16 +1177,16 @@
         },
         {
             "name": "negreanucalin/multidoc-parser",
-            "version": "1.1.15",
+            "version": "1.1.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/negreanucalin/multidoc-parser.git",
-                "reference": "87a211976d63bea5939aba06cd089458722629ec"
+                "reference": "bcb0a47eaf620f7f82b29efd46c5c3416c53a817"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/negreanucalin/multidoc-parser/zipball/87a211976d63bea5939aba06cd089458722629ec",
-                "reference": "87a211976d63bea5939aba06cd089458722629ec",
+                "url": "https://api.github.com/repos/negreanucalin/multidoc-parser/zipball/bcb0a47eaf620f7f82b29efd46c5c3416c53a817",
+                "reference": "bcb0a47eaf620f7f82b29efd46c5c3416c53a817",
                 "shasum": ""
             },
             "require": {
@@ -1219,9 +1219,9 @@
             ],
             "support": {
                 "issues": "https://github.com/negreanucalin/multidoc-parser/issues",
-                "source": "https://github.com/negreanucalin/multidoc-parser/tree/1.1.15"
+                "source": "https://github.com/negreanucalin/multidoc-parser/tree/1.1.16"
             },
-            "time": "2021-11-16T16:40:46+00:00"
+            "time": "2021-11-17T09:23:02+00:00"
         },
         {
             "name": "negreanucalin/multidoc-viewer",
@@ -5638,16 +5638,16 @@
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v6.27.0",
+            "version": "v6.27.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "5e2c6211090d49e24c292edd2eb4138b7409160e"
+                "reference": "d0e98c101bc57e8bb0121603bb84aff7c800a44e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/5e2c6211090d49e24c292edd2eb4138b7409160e",
-                "reference": "5e2c6211090d49e24c292edd2eb4138b7409160e",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/d0e98c101bc57e8bb0121603bb84aff7c800a44e",
+                "reference": "d0e98c101bc57e8bb0121603bb84aff7c800a44e",
                 "shasum": ""
             },
             "require": {
@@ -5724,7 +5724,7 @@
                     "type": "liberapay"
                 }
             ],
-            "time": "2021-11-09T22:53:16+00:00"
+            "time": "2021-11-17T02:37:48+00:00"
         },
         {
             "name": "phar-io/manifest",
