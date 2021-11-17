@@ -12,7 +12,7 @@ Just add `"negreanucalin/multidoc-laravel": "^1.0"` in your `composer.json`
 
 * Add the service provider and alias
     * Providers ` \MultidocLaravel\MultidocServiceProvider::class `
-    * Aliases ` 'MultidocLaravel'=>\Multidoc\Facades\Multidoc::class `
+    * Aliases ` 'MultidocLaravel'=>\Multidoc\Facades\MultidocLaravelFacade::class `
 
 * Publish vendors
 Run:
