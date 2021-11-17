@@ -1177,16 +1177,16 @@
         },
         {
             "name": "negreanucalin/multidoc-parser",
-            "version": "1.1.16",
+            "version": "1.1.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/negreanucalin/multidoc-parser.git",
-                "reference": "bcb0a47eaf620f7f82b29efd46c5c3416c53a817"
+                "reference": "fa7fade87726bc827b82d4af2d70dff39daae881"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/negreanucalin/multidoc-parser/zipball/bcb0a47eaf620f7f82b29efd46c5c3416c53a817",
-                "reference": "bcb0a47eaf620f7f82b29efd46c5c3416c53a817",
+                "url": "https://api.github.com/repos/negreanucalin/multidoc-parser/zipball/fa7fade87726bc827b82d4af2d70dff39daae881",
+                "reference": "fa7fade87726bc827b82d4af2d70dff39daae881",
                 "shasum": ""
             },
             "require": {
@@ -1219,9 +1219,9 @@
             ],
             "support": {
                 "issues": "https://github.com/negreanucalin/multidoc-parser/issues",
-                "source": "https://github.com/negreanucalin/multidoc-parser/tree/1.1.16"
+                "source": "https://github.com/negreanucalin/multidoc-parser/tree/1.1.18"
             },
-            "time": "2021-11-17T09:23:02+00:00"
+            "time": "2021-11-17T12:03:54+00:00"
         },
         {
             "name": "negreanucalin/multidoc-viewer",
@@ -1256,16 +1256,16 @@
         },
         {
             "name": "negreanucalin/sparkle-dto",
-            "version": "1.1.8",
+            "version": "1.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/negreanucalin/sparkle-dto.git",
-                "reference": "cf2c70db9d9321803df252680d0b7cf006465852"
+                "reference": "c44c113853219174938101cc2ef8c5908bd0f561"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/negreanucalin/sparkle-dto/zipball/cf2c70db9d9321803df252680d0b7cf006465852",
-                "reference": "cf2c70db9d9321803df252680d0b7cf006465852",
+                "url": "https://api.github.com/repos/negreanucalin/sparkle-dto/zipball/c44c113853219174938101cc2ef8c5908bd0f561",
+                "reference": "c44c113853219174938101cc2ef8c5908bd0f561",
                 "shasum": ""
             },
             "require": {
@@ -1292,9 +1292,9 @@
             ],
             "support": {
                 "issues": "https://github.com/negreanucalin/sparkle-dto/issues",
-                "source": "https://github.com/negreanucalin/sparkle-dto/tree/1.1.8"
+                "source": "https://github.com/negreanucalin/sparkle-dto/tree/1.1.9"
             },
-            "time": "2021-11-16T16:25:12+00:00"
+            "time": "2021-11-17T11:58:43+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -7850,16 +7850,16 @@
         },
         {
             "name": "spatie/ray",
-            "version": "1.30.4",
+            "version": "1.31.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/ray.git",
-                "reference": "a8745c41bf8457680d7bd58904d16c0ad32a1ac7"
+                "reference": "e5374378f00ee2419dae70f95bb640d1782e3c03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/ray/zipball/a8745c41bf8457680d7bd58904d16c0ad32a1ac7",
-                "reference": "a8745c41bf8457680d7bd58904d16c0ad32a1ac7",
+                "url": "https://api.github.com/repos/spatie/ray/zipball/e5374378f00ee2419dae70f95bb640d1782e3c03",
+                "reference": "e5374378f00ee2419dae70f95bb640d1782e3c03",
                 "shasum": ""
             },
             "require": {
@@ -7909,7 +7909,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/ray/issues",
-                "source": "https://github.com/spatie/ray/tree/1.30.4"
+                "source": "https://github.com/spatie/ray/tree/1.31.0"
             },
             "funding": [
                 {
@@ -7921,7 +7921,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2021-11-11T09:43:41+00:00"
+            "time": "2021-11-17T11:59:32+00:00"
         },
         {
             "name": "symfony/stopwatch",
