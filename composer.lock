@@ -1177,16 +1177,16 @@
         },
         {
             "name": "negreanucalin/multidoc-parser",
-            "version": "1.1.20",
+            "version": "1.1.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/negreanucalin/multidoc-parser.git",
-                "reference": "c9cee1e2566b00479076b6b03da59e0e43c70bf0"
+                "reference": "ac7bd86198bad3065fe0001ccc1577abf77236f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/negreanucalin/multidoc-parser/zipball/c9cee1e2566b00479076b6b03da59e0e43c70bf0",
-                "reference": "c9cee1e2566b00479076b6b03da59e0e43c70bf0",
+                "url": "https://api.github.com/repos/negreanucalin/multidoc-parser/zipball/ac7bd86198bad3065fe0001ccc1577abf77236f8",
+                "reference": "ac7bd86198bad3065fe0001ccc1577abf77236f8",
                 "shasum": ""
             },
             "require": {
@@ -1204,7 +1204,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Multidoc\\": "src/"
+                    "MultidocParser\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1219,9 +1219,9 @@
             ],
             "support": {
                 "issues": "https://github.com/negreanucalin/multidoc-parser/issues",
-                "source": "https://github.com/negreanucalin/multidoc-parser/tree/1.1.20"
+                "source": "https://github.com/negreanucalin/multidoc-parser/tree/1.1.21"
             },
-            "time": "2021-11-17T13:56:22+00:00"
+            "time": "2021-11-17T14:49:46+00:00"
         },
         {
             "name": "negreanucalin/multidoc-viewer",

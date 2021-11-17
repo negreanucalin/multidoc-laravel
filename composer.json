@@ -10,12 +10,12 @@
     ],
 	"autoload": {
 		"psr-4": {
-			"Multidoc\\": "src/"
+			"MultidocLaravel\\": "src/"
 		}
 	},
     "autoload-dev": {
         "psr-4": {
-            "Multidoc\\Tests\\": "tests/"
+            "MultidocLaravel\\Tests\\": "tests/"
         }
     },
     "require": {

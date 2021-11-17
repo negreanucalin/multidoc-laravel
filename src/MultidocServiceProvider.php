@@ -1,10 +1,10 @@
 <?php
 
-namespace Multidoc;
+namespace MultidocLaravel;
 
 use Illuminate\Support\ServiceProvider;
-use Multidoc\Services\DIService;
-use Multidoc\Services\MultidocService;
+use MultidocParser\Services\DIService;
+use MultidocParser\Services\MultidocParserService;
 use Illuminate\Foundation\Application as LaravelApplication;
 
 class MultidocServiceProvider extends ServiceProvider
@@ -49,13 +49,13 @@ class MultidocServiceProvider extends ServiceProvider
     {
         $this->commands($this->commands);
         $this->app->singleton('multidoc', function ($app){
-            return (new DIService)->load()->get('multidoc_service');
+            return (new DIService)->load()->get('multidoc_parser_service');
         });
-        $this->app->alias('multidoc', MultidocService::class);
+        $this->app->alias('multidoc', MultidocParserService::class);
     }
 
     public function provides()
     {
-        return array('multidoc', MultidocService::class);
+        return array('multidoc', MultidocParserService::class);
     }
 }

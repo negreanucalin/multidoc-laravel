@@ -1,8 +1,8 @@
 <?php
-namespace Multidoc\Tests;
+namespace MultidocLaravel\Tests;
 
 use GrahamCampbell\TestBenchCore\ServiceProviderTrait;
-use Multidoc\Services\MultidocService;
+use MultidocParser\Services\MultidocParserService;
 
 class ServiceProviderTest extends AbstractTestCase
 {
@@ -10,6 +10,6 @@ class ServiceProviderTest extends AbstractTestCase
 
     public function testMultidocClient()
     {
-        $this->assertIsInjectable(MultidocService::class);
+        $this->assertIsInjectable(MultidocParserService::class);
     }
 }

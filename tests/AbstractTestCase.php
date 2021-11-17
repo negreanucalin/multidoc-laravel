@@ -1,9 +1,9 @@
 <?php
 
-namespace Multidoc\Tests;
+namespace MultidocLaravel\Tests;
 
 use GrahamCampbell\TestBench\AbstractPackageTestCase;
-use Multidoc\MultidocServiceProvider;
+use MultidocLaravel\MultidocServiceProvider;
 
 abstract class AbstractTestCase extends AbstractPackageTestCase
 {

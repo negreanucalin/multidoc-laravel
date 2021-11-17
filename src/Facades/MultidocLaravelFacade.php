@@ -1,9 +1,9 @@
 <?php
-namespace Multidoc\Facades;
+namespace MultidocLaravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class Multidoc extends Facade
+class MultidocLaravelFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {

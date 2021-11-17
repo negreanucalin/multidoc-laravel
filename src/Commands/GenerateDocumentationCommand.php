@@ -1,10 +1,10 @@
 <?php
 
-namespace Multidoc\Commands;
+namespace MultidocLaravel\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Config;
-use Multidoc\Facades\Multidoc;
+use MultidocLaravel\Facades\MultidocLaravelFacade;
 
 class GenerateDocumentationCommand extends Command
 {
@@ -34,14 +34,12 @@ class GenerateDocumentationCommand extends Command
 
     /**
      * Execute the console command.
-     *
-     * @return mixed
      */
     public function handle()
     {
         $configuration = Config::get('multidoc');
         $this->info('Starting generation of documentation');
-        Multidoc::generate(
+        MultidocLaravelFacade::generate(
             $configuration['input_folder'],
             public_path($configuration['public_output_path'])
         );
