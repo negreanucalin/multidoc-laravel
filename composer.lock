@@ -1177,16 +1177,16 @@
         },
         {
             "name": "negreanucalin/multidoc-parser",
-            "version": "1.1.24",
+            "version": "1.1.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/negreanucalin/multidoc-parser.git",
-                "reference": "3f770d1f57eceec4d91605d622925090ae298520"
+                "reference": "1a218e2b8cdf382cd027a96752108a55f254083d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/negreanucalin/multidoc-parser/zipball/3f770d1f57eceec4d91605d622925090ae298520",
-                "reference": "3f770d1f57eceec4d91605d622925090ae298520",
+                "url": "https://api.github.com/repos/negreanucalin/multidoc-parser/zipball/1a218e2b8cdf382cd027a96752108a55f254083d",
+                "reference": "1a218e2b8cdf382cd027a96752108a55f254083d",
                 "shasum": ""
             },
             "require": {
@@ -1219,9 +1219,9 @@
             ],
             "support": {
                 "issues": "https://github.com/negreanucalin/multidoc-parser/issues",
-                "source": "https://github.com/negreanucalin/multidoc-parser/tree/1.1.24"
+                "source": "https://github.com/negreanucalin/multidoc-parser/tree/1.1.25"
             },
-            "time": "2021-11-17T15:33:34+00:00"
+            "time": "2021-11-18T09:44:50+00:00"
         },
         {
             "name": "negreanucalin/multidoc-viewer",
@@ -1256,16 +1256,16 @@
         },
         {
             "name": "negreanucalin/sparkle-dto",
-            "version": "1.1.10",
+            "version": "1.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/negreanucalin/sparkle-dto.git",
-                "reference": "e58c0294a4c184ddc5df054e62ef8f6207fce10a"
+                "reference": "14bf00bc7018a8aca1fb8c7450d731eb6b42dff3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/negreanucalin/sparkle-dto/zipball/e58c0294a4c184ddc5df054e62ef8f6207fce10a",
-                "reference": "e58c0294a4c184ddc5df054e62ef8f6207fce10a",
+                "url": "https://api.github.com/repos/negreanucalin/sparkle-dto/zipball/14bf00bc7018a8aca1fb8c7450d731eb6b42dff3",
+                "reference": "14bf00bc7018a8aca1fb8c7450d731eb6b42dff3",
                 "shasum": ""
             },
             "require": {
@@ -1292,9 +1292,9 @@
             ],
             "support": {
                 "issues": "https://github.com/negreanucalin/sparkle-dto/issues",
-                "source": "https://github.com/negreanucalin/sparkle-dto/tree/1.1.10"
+                "source": "https://github.com/negreanucalin/sparkle-dto/tree/1.1.11"
             },
-            "time": "2021-11-17T15:31:43+00:00"
+            "time": "2021-11-18T09:39:08+00:00"
         },
         {
             "name": "nesbot/carbon",
