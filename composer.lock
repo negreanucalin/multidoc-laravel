@@ -1177,21 +1177,21 @@
         },
         {
             "name": "negreanucalin/multidoc-parser",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/negreanucalin/multidoc-parser.git",
-                "reference": "48148edf0fe4836d26fdf55ea04f9a0711107bf4"
+                "reference": "715e761fe96454042271a32fae538aab988a6ed2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/negreanucalin/multidoc-parser/zipball/48148edf0fe4836d26fdf55ea04f9a0711107bf4",
-                "reference": "48148edf0fe4836d26fdf55ea04f9a0711107bf4",
+                "url": "https://api.github.com/repos/negreanucalin/multidoc-parser/zipball/715e761fe96454042271a32fae538aab988a6ed2",
+                "reference": "715e761fe96454042271a32fae538aab988a6ed2",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "negreanucalin/sparkle-dto": "~1.1",
+                "negreanucalin/sparkle-dto": "~0.1",
                 "symfony/config": "5.*",
                 "symfony/dependency-injection": "5.*",
                 "symfony/filesystem": "5.*",
@@ -1219,9 +1219,9 @@
             ],
             "support": {
                 "issues": "https://github.com/negreanucalin/multidoc-parser/issues",
-                "source": "https://github.com/negreanucalin/multidoc-parser/tree/0.1.1"
+                "source": "https://github.com/negreanucalin/multidoc-parser/tree/0.1.2"
             },
-            "time": "2021-11-18T10:06:29+00:00"
+            "time": "2021-11-18T23:55:19+00:00"
         },
         {
             "name": "negreanucalin/multidoc-viewer",
@@ -1256,7 +1256,7 @@
         },
         {
             "name": "negreanucalin/sparkle-dto",
-            "version": "1.1.11",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/negreanucalin/sparkle-dto.git",
@@ -1292,7 +1292,7 @@
             ],
             "support": {
                 "issues": "https://github.com/negreanucalin/sparkle-dto/issues",
-                "source": "https://github.com/negreanucalin/sparkle-dto/tree/1.1.11"
+                "source": "https://github.com/negreanucalin/sparkle-dto/tree/0.1.0"
             },
             "time": "2021-11-18T09:39:08+00:00"
         },
