@@ -20,8 +20,8 @@
     },
     "require": {
         "illuminate/support": "8.70.*",
-        "negreanucalin/multidoc-parser": "~1.0",
-        "negreanucalin/multidoc-viewer": "~1.0"
+        "negreanucalin/multidoc-parser": "~0.1",
+        "negreanucalin/multidoc-viewer": "~0.1"
     },
     "require-dev": {
         "graham-campbell/testbench": "^5.6",

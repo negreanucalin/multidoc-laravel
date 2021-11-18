@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "33de946cf96084afa54eced5b12cab48",
+    "content-hash": "52c85e11380093b0ccc074943ef66dcd",
     "packages": [
         {
             "name": "brick/math",
@@ -1177,7 +1177,7 @@
         },
         {
             "name": "negreanucalin/multidoc-parser",
-            "version": "1.1.27",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/negreanucalin/multidoc-parser.git",
@@ -1219,22 +1219,22 @@
             ],
             "support": {
                 "issues": "https://github.com/negreanucalin/multidoc-parser/issues",
-                "source": "https://github.com/negreanucalin/multidoc-parser/tree/1.1.27"
+                "source": "https://github.com/negreanucalin/multidoc-parser/tree/0.1.1"
             },
             "time": "2021-11-18T10:06:29+00:00"
         },
         {
             "name": "negreanucalin/multidoc-viewer",
-            "version": "1.3.7",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/negreanucalin/multidoc-viewer.git",
-                "reference": "cbc2a422790d0f61dc4fc088264f1a392a04e7bf"
+                "reference": "35c1b92e58ba930d815cec0577e9256720ffcf2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/negreanucalin/multidoc-viewer/zipball/cbc2a422790d0f61dc4fc088264f1a392a04e7bf",
-                "reference": "cbc2a422790d0f61dc4fc088264f1a392a04e7bf",
+                "url": "https://api.github.com/repos/negreanucalin/multidoc-viewer/zipball/35c1b92e58ba930d815cec0577e9256720ffcf2a",
+                "reference": "35c1b92e58ba930d815cec0577e9256720ffcf2a",
                 "shasum": ""
             },
             "type": "library",
@@ -1250,9 +1250,9 @@
             ],
             "support": {
                 "issues": "https://github.com/negreanucalin/multidoc-viewer/issues",
-                "source": "https://github.com/negreanucalin/multidoc-viewer/tree/1.3.7"
+                "source": "https://github.com/negreanucalin/multidoc-viewer/tree/0.1.2"
             },
-            "time": "2021-11-16T17:01:45+00:00"
+            "time": "2021-11-18T23:30:49+00:00"
         },
         {
             "name": "negreanucalin/sparkle-dto",
