@@ -1181,12 +1181,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/negreanucalin/multidoc-parser.git",
-                "reference": "715e761fe96454042271a32fae538aab988a6ed2"
+                "reference": "39f2fb20441a74f47d7075670521f07f72f2c995"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/negreanucalin/multidoc-parser/zipball/715e761fe96454042271a32fae538aab988a6ed2",
-                "reference": "715e761fe96454042271a32fae538aab988a6ed2",
+                "url": "https://api.github.com/repos/negreanucalin/multidoc-parser/zipball/39f2fb20441a74f47d7075670521f07f72f2c995",
+                "reference": "39f2fb20441a74f47d7075670521f07f72f2c995",
                 "shasum": ""
             },
             "require": {
@@ -1221,7 +1221,7 @@
                 "issues": "https://github.com/negreanucalin/multidoc-parser/issues",
                 "source": "https://github.com/negreanucalin/multidoc-parser/tree/0.1.2"
             },
-            "time": "2021-11-18T23:55:19+00:00"
+            "time": "2021-11-19T17:48:39+00:00"
         },
         {
             "name": "negreanucalin/multidoc-viewer",
@@ -1256,16 +1256,16 @@
         },
         {
             "name": "negreanucalin/sparkle-dto",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/negreanucalin/sparkle-dto.git",
-                "reference": "14bf00bc7018a8aca1fb8c7450d731eb6b42dff3"
+                "reference": "60c199400437fb103b8f314f32f5b97cb31dfafb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/negreanucalin/sparkle-dto/zipball/14bf00bc7018a8aca1fb8c7450d731eb6b42dff3",
-                "reference": "14bf00bc7018a8aca1fb8c7450d731eb6b42dff3",
+                "url": "https://api.github.com/repos/negreanucalin/sparkle-dto/zipball/60c199400437fb103b8f314f32f5b97cb31dfafb",
+                "reference": "60c199400437fb103b8f314f32f5b97cb31dfafb",
                 "shasum": ""
             },
             "require": {
@@ -1292,9 +1292,9 @@
             ],
             "support": {
                 "issues": "https://github.com/negreanucalin/sparkle-dto/issues",
-                "source": "https://github.com/negreanucalin/sparkle-dto/tree/0.1.0"
+                "source": "https://github.com/negreanucalin/sparkle-dto/tree/0.1.1"
             },
-            "time": "2021-11-18T09:39:08+00:00"
+            "time": "2021-11-19T17:46:52+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -6066,16 +6066,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "9.2.8",
+            "version": "9.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "cf04e88a2e3c56fc1a65488afd493325b4c1bc3e"
+                "reference": "f301eb1453c9e7a1bc912ee8b0ea9db22c60223b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/cf04e88a2e3c56fc1a65488afd493325b4c1bc3e",
-                "reference": "cf04e88a2e3c56fc1a65488afd493325b4c1bc3e",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/f301eb1453c9e7a1bc912ee8b0ea9db22c60223b",
+                "reference": "f301eb1453c9e7a1bc912ee8b0ea9db22c60223b",
                 "shasum": ""
             },
             "require": {
@@ -6131,7 +6131,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.8"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.9"
             },
             "funding": [
                 {
@@ -6139,7 +6139,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-10-30T08:01:38+00:00"
+            "time": "2021-11-19T15:21:02+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
