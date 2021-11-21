@@ -20,11 +20,12 @@
     },
     "require": {
         "illuminate/support": "8.70.*",
-        "negreanucalin/multidoc-parser": "~0.1",
-        "negreanucalin/multidoc-viewer": "~0.1"
+        "negreanucalin/multidoc-parser": "dev-dev",
+        "negreanucalin/multidoc-viewer": "dev-dev"
     },
     "require-dev": {
         "graham-campbell/testbench": "^5.6",
         "phpunit/phpunit": "9.5.10"
-    }
+    },
+    "minimum-stability": "dev"
 }
