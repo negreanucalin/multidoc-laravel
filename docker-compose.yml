@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+    multidoc-laravel-dev:
+        container_name: multidoc-laravel-dev
+        build:
+            context: .
+            dockerfile: .Dockerfile
+        environment:
+            - FPM_PM_MAX_CHILDREN=10
+            - XDEBUG_MODE=profile
+        volumes:
+            - ./:/var/www/multidoc-laravel
+            - type: "bind"
+              source: "../xdebug-output-multidoc-laravel"
+              target: "/tmp/xdebug-output-multidoc-laravel"
