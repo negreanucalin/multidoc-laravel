@@ -1226,16 +1226,16 @@
         },
         {
             "name": "negreanucalin/multidoc-viewer",
-            "version": "0.1.5",
+            "version": "0.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/negreanucalin/multidoc-viewer.git",
-                "reference": "9186dc103d6fdeae07aceb2e4d346c303de8ecd4"
+                "reference": "16afb584ed320163d72879984540af43e287f134"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/negreanucalin/multidoc-viewer/zipball/9186dc103d6fdeae07aceb2e4d346c303de8ecd4",
-                "reference": "9186dc103d6fdeae07aceb2e4d346c303de8ecd4",
+                "url": "https://api.github.com/repos/negreanucalin/multidoc-viewer/zipball/16afb584ed320163d72879984540af43e287f134",
+                "reference": "16afb584ed320163d72879984540af43e287f134",
                 "shasum": ""
             },
             "type": "library",
@@ -1251,9 +1251,9 @@
             ],
             "support": {
                 "issues": "https://github.com/negreanucalin/multidoc-viewer/issues",
-                "source": "https://github.com/negreanucalin/multidoc-viewer/tree/0.1.5"
+                "source": "https://github.com/negreanucalin/multidoc-viewer/tree/0.1.6"
             },
-            "time": "2021-11-24T13:27:18+00:00"
+            "time": "2021-11-24T13:56:22+00:00"
         },
         {
             "name": "negreanucalin/sparkle-dto",
@@ -7550,7 +7550,6 @@
                     "type": "github"
                 }
             ],
-            "abandoned": true,
             "time": "2020-09-28T06:45:17+00:00"
         },
         {
